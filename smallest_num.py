@@ -1,4 +1,6 @@
-num_list = [200, 212, 299, 331, 21, 42]
+def smallest(num_list):
+    num_list.sort()
+    return num_list[0]
 
-num_list.sort()
-print(num_list[0])
+print(smallest([200, 212, 299, 331, 21, 42]))
+
